@@ -1,3 +1,5 @@
+// http://www.m-hikari.com/ams/ams-2015/ams-33-36-2015/manAMS33-36-2015.pdf
+
 #include <iostream>
 using namespace std;
 
@@ -25,7 +27,7 @@ int main(){
 	check = gcd(jugOne, jugTwo); 
 
 	if ( check % amountToObtain == 0 ){
-		
+
 
 	} else {
 		cout << "This amount cannot be obtained with the Jugs provided, sorry\n";
